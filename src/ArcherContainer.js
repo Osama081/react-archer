@@ -326,7 +326,7 @@ export class ArcherContainer extends React.Component<Props, State> {
           unregisterChild: this.unregisterChild,
         }}
       >
-        <div style={{ ...this.props.style, position: 'relative' }} className={this.props.className}>
+        <div style={{ ...this.props.style }} className={this.props.className}>
           <svg style={this.svgContainerStyle()}>
             <defs>{this.generateAllArrowMarkers()}</defs>
             {SvgArrows}
